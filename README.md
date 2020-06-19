@@ -46,4 +46,4 @@ DoveToast toast = new DoveToast(this) // Make a dove toast object
         toast.show(); // call to show
 ```
 
-Refer the code in sample app for more details : Sample/MainActivity.java
+Refer the code in sample app for more details : [Sample/MainActivity.java](https://github.com/kamaravichow/Dove/blob/master/app/src/main/java/io/github/kamaravichow/MainActivity.java)
