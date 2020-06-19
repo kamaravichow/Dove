@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="makeAndroidDefualtToast"
+        android:text="Normal Toast"/>
+
+    <Button
+        android:id="@+id/default_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="makeDefualtDoveToast"
+        android:text="Dove Default Toast"/>
+
+    <Button
+        android:id="@+id/custom_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="customDoveToast"
+        android:text="Custom Dove Toast"/>
+
+
+
+</LinearLayout>
